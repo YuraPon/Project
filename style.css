@@ -2,45 +2,17 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  
+    background-color: orange;
+ 
+} 
 h1 {
 text-align: center;
 padding: 10px 15px 15px;
 margin: 5px 0 20px 10px;
-color: #030303;
+color: #ffffff;
 font-size: 60px;
-}
-body {
-  background-image: url("тварини.jpg") ;
-background-size: cover;
- background-attachment: fixed;
-}
-.rol{
-background-color: #1b1819;
-  padding: 5px;
-  color: #0f0f0f;
-margin: 10px;
-border: 20px solid #ffd500;
-  height: 100px;
-  width: 200px;
-}
-.rol:hover{
-cursor: pointer;
-background-color: #009dff;
-border: 10px solid #0c0c0d;
-text-transform: uppercase;
-width: 200px;
-  transition: all 0.3s;
-}
-a{
-text-align: left;
-
-  text-decoration: none;
-  color: #f50000;
-}
-ul {
-  font-size: 30px;
-  font-weight: 700;
-  list-style: none;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -49,27 +21,32 @@ p {
   text-align: left;
   background-color: white;
 }
-.der:hover{
-cursor: pointer;
-background-color: #0037ff;
-border: 10px solid #37ff00;
-text-transform: uppercase;
-width: 200px;
-  transition: all 0.3s;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-.der{
-  background-color: #ffffff;
-  padding: 5px;
-  color: #ff0000;
-margin: 10px;
-border: 20px solid #171616;
-  height: 100px;
+  .rol{
+  background-color: #1b1819;
+    padding: 5px;
+    color: #0f0f0f;
+  margin: 10px;
+  border: 20px solid #0040ff;
+    height: 100px;
+    width: 200px;
+  }
+  .rol:hover{
+  cursor: pointer;
+  background-color: #009dff;
+  border: 10px solid #0c0c0d;
+  text-transform: uppercase;
   width: 200px;
-  padding-left: 20px;
-  padding-top: 20px;
-}
+    transition: all 0.3s;
+  }
+  a{
+  text-align: right;
 
+    text-decoration: none;
+    color: #f50000;
+  }
+ul {
+
+  list-style: none;
+}
 
 
